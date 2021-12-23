@@ -23,7 +23,7 @@ class SwooleTable extends Table
      * @param  int  $size
      * @return void
      */
-    public function column($name, $type, $size = 0)
+    public function column(string $name, string $type, int $size = 0)
     {
         $this->columns[$name] = [$type, $size];
 
